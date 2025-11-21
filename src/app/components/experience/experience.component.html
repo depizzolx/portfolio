@@ -1,0 +1,17 @@
+<section id="experience">
+  <div class="job-list">
+    <div class="job" *ngFor="let job of jobs">
+      <div class="year">{{ job.year }}</div>
+
+      <div class="content">
+        <h3 class="role">{{ job.role }}</h3>
+        <div class="company">{{ job.company }}</div>
+        <p class="description">{{ job.description }}</p>
+      </div>
+
+      <div class="skills">
+        <span *ngFor="let skill of job.skills" class="skill-tag">{{ skill }}</span>
+      </div>
+    </div>
+  </div>
+</section>

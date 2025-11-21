@@ -1,0 +1,28 @@
+footer {
+  margin-top: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+
+  .links {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+
+    a {
+      font-size: 1.1rem;
+      color: var(--text-color);
+      text-decoration: none;
+      text-underline-offset: 4px;
+      text-decoration-color: #444;
+
+      &:hover {
+        text-decoration-color: var(--accent-color);
+      }
+    }
+  }
+
+  .copyright {
+    font-size: 0.85rem;
+    color: #444;
+  }
+}

@@ -1,0 +1,15 @@
+.hero {
+  margin-bottom: 4rem;
+  
+  .intro {
+    font-size: 1.25rem;
+    color: var(--text-color);
+    max-width: 600px;
+    line-height: 1.8;
+    
+    strong {
+      color: var(--accent-color);
+      font-weight: 400;
+    }
+  }
+}
