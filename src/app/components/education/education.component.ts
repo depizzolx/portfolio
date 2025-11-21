@@ -2,9 +2,10 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 interface Education {
-  year: string;
+  finalYear: string;
+  initialYear: string;
   degree: string;
-  description?: string;
+  university: string;
 }
 
 @Component({
@@ -17,9 +18,10 @@ interface Education {
 export class EducationComponent {
   education: Education[] = [
     {
-      year: '2026',
+      finalYear: '2026',
+      initialYear: '2023',
       degree: 'Technologist, Systems Analysis and Development',
-      description: '2023 - 2026'
+      university: 'UNINTER International University Center'
     }
   ];
 }

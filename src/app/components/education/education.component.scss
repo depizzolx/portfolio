@@ -18,33 +18,57 @@ section {
 
 .item {
   display: grid;
-  grid-template-columns: 100px 1fr;
+  grid-template-columns: 100px 1fr 90px;
   gap: 2rem;
-  align-items: baseline;
+  align-items: flex-start;
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
     gap: 1rem;
   }
 
-  .year {
+  .periodYear {
+    position: relative;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .finalYear {
     font-size: 1.5rem;
     color: var(--text-muted);
     font-weight: 300;
   }
 
-  .content {
-    display: block;
+  .initialYear {
+    font-size: 1rem;
+    color: var(--text-muted);
+    font-weight: 300;
+  }
 
+  .verticalLine {
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 2px;
+    height: 55px;
+    background-color: var(--text-muted);
+    border-radius: 1px;
+    margin-top: 10px;
+  }
+
+  .content {
     .degree {
       font-size: 1.2rem;
       color: var(--text-color);
       font-weight: 600;
-      margin-right: 1rem;
+      margin-bottom: 0.25rem;
     }
 
-    .description {
+    .university {
       color: var(--text-muted);
+      margin-bottom: 1rem;
       font-size: 1rem;
     }
   }

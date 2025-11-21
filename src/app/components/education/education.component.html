@@ -2,12 +2,18 @@
   <h2 class="section-title">Education</h2>
   <div class="list">
     <div class="item" *ngFor="let edu of education">
-      <div class="year">{{ edu.year }}</div>
+      <div class="periodYear">
+        <div class="verticalLine"></div>
+        <div class="finalYear">{{ edu.finalYear }}</div>
+        <div class="initialYear">{{ edu.initialYear }}</div>
+      </div>
 
       <div class="content">
-        <span class="degree">{{ edu.degree }}</span><br>
-        <span class="description" *ngIf="edu.description">{{ edu.description }}</span>
+        <h3 class="degree">{{ edu.degree }}</h3>
+        <div class="university">{{ edu.university }}</div>
       </div>
+
+      <div class="skills-placeholder"></div>
     </div>
   </div>
 </section>
