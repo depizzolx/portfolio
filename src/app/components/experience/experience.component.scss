@@ -10,7 +10,7 @@ section {
 
 .job {
   display: grid;
-  grid-template-columns: 100px 1fr 200px;
+  grid-template-columns: 100px 1fr 190px;
   gap: 2rem;
   align-items: flex-start;
 
@@ -19,10 +19,35 @@ section {
     gap: 1rem;
   }
 
-  .year {
+  .periodYear {
+    position: relative;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .finalYear {
     font-size: 1.5rem;
     color: var(--text-muted);
     font-weight: 300;
+  }
+
+  .initialYear {
+    font-size: 1rem;
+    color: var(--text-muted);
+    font-weight: 300;
+  }
+
+  .verticalLine {
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 2px;
+    height: 55px;
+    background-color: var(--text-muted);
+    border-radius: 1px;
+    margin-top: 10px;
   }
 
   .content {

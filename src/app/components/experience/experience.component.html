@@ -1,8 +1,11 @@
 <section id="experience">
   <div class="job-list">
     <div class="job" *ngFor="let job of jobs">
-      <div class="year">{{ job.year }}</div>
-
+      <div class="periodYear">
+        <div class="verticalLine"></div>
+        <div class="finalYear">{{ job.finalYear }}</div>
+        <div class="initialYear">{{ job.initialYear }}</div>
+      </div>
       <div class="content">
         <h3 class="role">{{ job.role }}</h3>
         <div class="company">{{ job.company }}</div>
