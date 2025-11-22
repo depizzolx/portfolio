@@ -7,7 +7,7 @@ header {
 
   .brand {
     h1 {
-      font-size: 2rem;
+      font-size: 2.2rem;
       margin-bottom: 0rem;
       letter-spacing: -0.04em;
       color: var(--title-color);
@@ -19,11 +19,15 @@ header {
     }
   }
 
-  .techImages {
+  .techImages, .contactImages {
     display: flex;
     gap: 1.5rem;
-    height: 30px;
-    width: 30px;
-    margin-right: 10rem;
+    margin-right: 1rem;
+  }
+
+  .techImages img,
+  .contactImages img {
+    height: 27px;
+    width: 27px;
   }
 }
