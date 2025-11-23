@@ -1,6 +1,6 @@
 section {
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 3.5rem;
 }
 
 .section-title {
@@ -8,9 +8,6 @@ section {
   font-weight: 400;
   margin-bottom: 3rem;
   color: var(--text-muted);
-  &:hover {
-    color: var(--accent-color);
-  }
 }
 
 .list {

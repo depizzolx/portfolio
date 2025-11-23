@@ -1,13 +1,6 @@
 footer {
   margin-top: 1rem;
-  padding-top: 2rem;
   padding-bottom: 4rem;
-
-  h2 {
-    &:hover {
-      color: var(--accent-color);
-    }
-  }
 
   .links {
     display: flex;

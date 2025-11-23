@@ -6,17 +6,19 @@ import { HeroComponent } from './components/hero/hero.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { EducationComponent } from './components/education/education.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { ProjectComponent } from './components/project/project.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
-    CommonModule, 
+    CommonModule,
     HeaderComponent,
     HeroComponent,
     ExperienceComponent,
     EducationComponent,
-    ContactComponent
+    ContactComponent,
+    ProjectComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
