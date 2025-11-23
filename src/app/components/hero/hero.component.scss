@@ -1,5 +1,4 @@
 .hero {
-  margin-top: 1rem;
   margin-bottom: 6.5rem;
 
   .intro {
@@ -8,9 +7,21 @@
     max-width: 800px;
     line-height: 1.9;
 
-    strong {
+    .tech {
       color: var(--accent-color);
       font-weight: 400;
+
+      &:hover {
+        color: var(--text-color);
+      }
+    }
+  }
+  .company-link {
+    color: var(--text-color);
+    font-weight: 400;
+
+    &:hover {
+      color: var(--accent-color);
     }
   }
 }

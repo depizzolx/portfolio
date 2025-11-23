@@ -6,10 +6,10 @@ header {
   max-width: 750px;
 
   .brand {
-    h1 {
-      font-size: 2.2rem;
+    .h1 {
+      font-size: 2.8rem;
+      font-family: 'Inter', monospace;
       margin-bottom: 0rem;
-      letter-spacing: -0.04em;
       color: var(--title-color);
     }
 
@@ -27,7 +27,7 @@ header {
 
   .techImages img,
   .contactImages img {
-    height: 27px;
-    width: 27px;
+    height: 26px;
+    width: 26px;
   }
 }

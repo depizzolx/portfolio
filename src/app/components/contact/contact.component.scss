@@ -3,19 +3,25 @@ footer {
   padding-top: 2rem;
   padding-bottom: 4rem;
 
+  h2 {
+    &:hover {
+      color: var(--accent-color);
+    }
+  }
+
   .links {
     display: flex;
     gap: 2rem;
     margin-bottom: 2rem;
 
-    a {
+    a, .tech {
       font-size: 1.1rem;
       color: var(--text-color);
       text-decoration: none;
       text-underline-offset: 4px;
 
       &:hover {
-        text-decoration-color: var(--accent-color);
+        color: var(--accent-color);
       }
     }
   }

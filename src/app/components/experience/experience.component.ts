@@ -20,7 +20,7 @@ interface Job {
 export class ExperienceComponent {
   jobs: Job[] = [
     {
-      finalYear: 'Current',
+      finalYear: 'Present',
       initialYear: '2024',
       company: 'Wise Group',
       role: 'Software Engineer',
