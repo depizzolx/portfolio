@@ -30,4 +30,14 @@ header {
     height: 26px;
     width: 26px;
   }
+
+  p {
+    color: var(--text-color);
+    font-size: 1.1rem;
+    margin: 0;
+
+    &:hover {
+      color: var(--title-color);
+    }
+  }
 }
